@@ -6,82 +6,71 @@
         <meta name="description" content="landing-page-description-content">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
-        <title>landing-page-title</title>
+        <title>gobi-landing-page-title</title>
     </head>
 
     <body>
-
-        <header class="nav">
-            <div class="left">
-                <p id="logo">header logo</p>                
-            </div>
-
-            <div class="right">
-                <ul>
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
-            </div>
-
-            <div class="welcome">
-                <div class="left">
-                    <h1 class="hero">this website is amazing</h1>
-                    <p class="secondary">this website has some subtext that goes here under the main title. it's a smaller font and the color is lower contrast.</p>
-                    <button class="secondary">sign up</button>
+        <div class="container">
+            
+            <nav class="navbar">
+                <div class="header-logo">
+                    <img src="img/dog-logo.jpg" alt="dog logo">
                 </div>
-
-                <div class="right">
-                    <div class="image">
-                        <p>this is a place holder for an image</p>
-                    </div>
+                <div class="header-link">
+                    <a href="#">About</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Contact</a>                    
+                </div>
+            </nav>
+            
+            <div class="hero">
+                <div class="hero-cta">
+                    <h1>this is gobi's webpage.</h1>
+                    <h4>gobi is on a mission to promote pet safety, awareness and best practices around the world.</h4>
+                    <button type="button">sign up</button>
+                </div>
+                <div class="hero-1 hero-image">
+                    <img src="img/dog0.jpg" alt="dog0">
                 </div>
             </div>
-        </header>
-        <main>
-            <h2>Some random information</h2>
-            <div class="card-container secondary">
-                <div class="card">
-                    <div class="square">
-                        <p>this is some subtext under an illustration or image</p>
+
+            <div class="content">
+                <h2>different <em>reasons</em> to <strong>love</strong> dogs</h2>
+                <div class="content-info">
+                    <div class="card">
+                        <img src="img/dog1.jpg" alt="dog1">
+                        <p>big dog with a loving heart.</p>
                     </div>
-                    <div class="square">
-                        <p>this is some subtext under an illustration or image</p>
+                    <div class="card">
+                        <img src="img/dog3.jpg" alt="dog3">
+                        <p>he likes long walks on the beach and basking in the sun.</p>
                     </div>
-                    <div class="square">
-                        <p>this is some subtext under an illustration or image</p>
+                    <div class="card">
+                        <img src="img/dog2.jpg" alt="dog2">
+                        <p>gobi loves all the same foods we love.</p>
                     </div>
-                    <div class="square">
-                        <p>this is some subtext under an illustration or image</p>
+                    <div class="card">
+                        <img src="img/dog4.jpg" alt="dog4">
+                        <p>he can sleep all day, every day. </p>
                     </div>
                 </div>
             </div>
-        </main>
-
-        <div class="quote">
-            <em>“be who you are and say what you feel, because in the end those who matter don't mind and those who mind don't matter.”</em>
-            <p>theodor seuss geisel</p>
-        </div>
-
-        <div class="sign-up">
-            <div class="container">
-                <div class="left">
-                    <strong>call to action! it's time!</strong>
-                    <p class="secondary">sign up for our product by clicking that button right over there!</p>
+            <div class="quote">
+                <em>“Be who you are and say what you feel, because in the end those who matter don't mind and those who mind don't matter.” Theodor Seuss Geisel</em>
+            </div>
+            <div class="sign-up">
+                <div class="sign-text">
+                    <p class="signup-header">keep it updated with doggy news!</p>
+                    <p class="signup-header">sign up for the latest and greatest news today!</p>
                 </div>
-                <div class="right">
-                    <button class="secondary">sign up</button>
+                <div class="signs-button">
+                    <button type="button">sign up</button>
                 </div>
+            </div>
+            <div class="footer">
+                <p>copyright © the odin project 2021</p>
             </div>
         </div>
-
-        <footer>
-            copyright @ the odin project 2021
-        </footer>
-
-
-        <a href="#top"><p>return to top</p></a>
-
     </body>
-
 </html>
+
